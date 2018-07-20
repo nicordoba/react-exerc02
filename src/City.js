@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class CityView extends Component {
+class City extends Component {
   state = {
     temperature: null,
     condition: null
@@ -32,4 +32,4 @@ class CityView extends Component {
   }
 }
 
-export default CityView;
+export default City;
